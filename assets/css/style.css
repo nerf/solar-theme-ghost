@@ -57,7 +57,15 @@ sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
 code {
-    font: 0.85em Monaco, Courier, Monospace;
+  font: 0.85em Monaco, Courier, Monospace;
+  background-color: #073642;
+  color: #93a1a1;
+  border: 1px solid #2d6472;
+  border-radius: 3px 3px 3px 3px;
+  overflow: auto;
+  padding: 6px 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 blockquote {
@@ -247,14 +255,6 @@ img.center {
 
 pre code {
 	display: block;
-	background-color: #073642;
-	color: #93a1a1;
-	border: 1px solid #2d6472;
-    border-radius: 3px 3px 3px 3px;
-    overflow: auto;
-    padding: 6px 10px;
-    margin-top: 10px;
-    margin-bottom: 15px;
 }
 
 
